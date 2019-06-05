@@ -6,7 +6,7 @@ class Warrior
     self.mp = 10
     self.atk = 30
     self.magic = 5
-    self.status = alive
+    self.status = 'alive'
   end
 
   def attack(target)
@@ -27,7 +27,7 @@ class Mage
     self.mp = 100
     self.atk = 10
     self.magic = 40
-    self.status = alive
+    self.status = 'alive'
   end
 
   def cast_spell(target)
